@@ -1,7 +1,23 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
 # Compiled class file
 *.class
 
 # Log file
+
+# Save file
+save/
+
 *.log
 
 # BlueJ files
