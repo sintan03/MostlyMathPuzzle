@@ -7,9 +7,11 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        
+        Load.defaultSave();
         SaveData data = Load.loadData("saves/save1.json");
         List<String> stageFileStr = Utils.getAllFiles("assets/stages");
-
+        
     }
 
 }
